@@ -7,7 +7,7 @@ editor: visual
 
 # Introduction
 
-While the overall purpose of this document has a single purpose -- to serve as my Homework 1 submission -- it inherently serves two additional purposes. First, this document will offer my perspective on the data scientist role. Second, this document will demonstrate my ability to perform certain tasks in R and appropriately display the performance of those tasks. 
+While the overall purpose of this document has a single purpose -- to serve as my Homework 1 submission -- it inherently serves two additional purposes. First, this document will offer my perspective on the data scientist role. Second, this document will demonstrate my ability to perform certain tasks in R and appropriately display the performance of those tasks.
 
 # The Role of the Data Scientist
 
