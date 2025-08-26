@@ -94,8 +94,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -165,12 +163,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="other-musings-r-task-demonstrations" class="level1">
 <h1>Other Musings (R Task Demonstrations)</h1>
-<p>This section demonstrates my ability to perform the R tasks indicated in Homework 2. To begin, I will create an object, <span class="math inline">\(y\)</span>, which contains the kernel density estimate for Petal Width in the <span class="math inline">\(iris\)</span> dataset.</p>
+<p>This section demonstrates my ability to perform the R tasks indicated in Homework 2. To begin, I will create an object, <code>y</code>, which contains the kernel density estimate for Petal Width in the <code>iris</code> dataset.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Generating kernel density estimate for Petal Width in the iris dataset</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y<span class="ot">&lt;-</span><span class="fu">density</span>(iris<span class="sc">$</span>Petal.Width)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Next, I will explore the class, type, and structure of the new object <span class="math inline">\(y\)</span>.</p>
+<p>Next, I will explore the class, type, and structure of the new object <code>y</code>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Class of y</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -196,14 +194,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  - attr(*, "class")= chr "density"</code></pre>
 </div>
 </div>
-<p>Thus, we see that <span class="math inline">\(y\)</span> has class “density.” Its data type is “list,” which is how R views the object internally. Finally, the output from the <span class="math inline">\(str()\)</span> function indicates that <span class="math inline">\(y\)</span> is a list with seven components.</p>
-<p>Next, we will apply the <span class="math inline">\(plot()\)</span> function to <span class="math inline">\(y\)</span> and check the result. Note that I have suppressed the reporting of this line of code (<span class="math inline">\(plot(y)\)</span>) and simply provided the output.</p>
+<p>Thus, we see that <code>y</code> has class “density.” Its data type is “list,” which is how R views the object internally. Finally, the output from the <code>str()</code> function indicates that <code>y</code> is a list with seven components.</p>
+<p>Next, we will apply the <code>plot()</code> function to <code>y</code> and check the result. Note that I have suppressed the reporting of this line of code (<code>plot(y)</code>) and simply provided the output.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Homework_1_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>The result of applying the plot function to <span class="math inline">\(y\)</span>, which has class “density,” is the (non-parametric) estimated density function for Petal Width. In addition to the visualization, the plot function also reports the sample size and the bandwidth parameter used in the kernel estimation.</p>
+<p>The result of applying the plot function to <code>y</code>, which has class “density,” is the (non-parametric) estimated density function for Petal Width. In addition to the visualization, the plot function also reports the sample size and the bandwidth parameter used in the kernel estimation.</p>
 
 
 </section>
