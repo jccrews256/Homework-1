@@ -14,10 +14,11 @@ While the overall purpose of this document has a single purpose -- to serve as m
 ## What is Being a Data Scientist About?
 At its core, being a data scientist is about leveraging an organization's data to improve the organization's outcomes, whether those outcomes be sales volume, employee efficiency, or any other "north star" for the organization. To leverage data for improved outcomes, a data scientist must:
 
-* Collect and process raw data related to the outcome of interest (sometimes in partnership with data engineers)
-* Summarize and visualize the data to understand their general properties and tendencies
-* Model the data with an eye toward improved organizational decision-making or outcomes
-* Communicate findings in a way that makes the findings easily interpreted and actionable
+1. Collect and process raw data related to the outcome of interest
+  i) Often completed in partnership with data engineers
+2. Summarize and visualize the data to understand their general properties and tendencies
+3. Model the data with an eye toward improved organizational decision-making or outcomes
+4. Communicate findings in a way that makes the findings easily interpreted and actionable
 
 A data scientist will repeat this workflow for each project. To do so effectively and efficiency, a data scientist must have both a breadth and depth of knowledge. For example, the data scientist must have a solid foundation in mathematics and statistics. The data scientist must also be a competent statistical and algorithmic programmer in languages such as R and Python. Finally, the data scientist must understand the domain they are working in, whether that be deep tech, finance, natural sciences, or any other industrial segment of the economy. Otherwise, the data scientist will struggle to identify the appropriate data for solving a given problem and may develop business solutions that are not directly deployable. Of course, the degree to which the data scientist must independently understand the domain depends on the organization's size and structure, as some organizations pair data scientists with colleagues who have the domain expertise necessary to effectively solve a given organizational problem. 
 
@@ -37,7 +38,7 @@ Therefore, when asked about the similarities and differences between data scient
 Just as I believe the lines are increasingly blurred between data science and statistics, I find my professional identity to increasingly be an amalgamation of these two highly related fields. I am a research director for the economic policy think tank Heartland Forward, an organization I have been with for seven years. At the beginning of my time at Heartland Forward, I viewed myself as an economist. I now find myself describing my role as part applied statistics, part data science. What caused the change? I believe it is because I've increasingly realized communities face problems and need solutions that go beyond traditional economic and causal inference frameworks. As an example, I recently worked with a state that needed to classify all businesses in the state as either outdoor recreation businesses or not. As there were more than 118,000 businesses to review, this was clearly a machine learning task. Further, as the state will need to be able to identify outdoor recreation companies that start operations in the future, we needed to apply data science and software development techniques to deploy a trained classification model within the state's data systems. However, at the same time I was completing the outdoor recreation project, I was working on another project that involved identifying the public policy and socio-economic factors that drive improved entrepreneurship outcomes in US metropolitan areas. The project funders asked that model and variable selection occur based on predictive accuracy, but that candidate models only include those that allow for the identification factors that have a statistically significant relationship with entrepreneurship success. This work very much blurs the lines between data science and statistics. 
 
 # Other Musings (R Task Demonstrations)
-This section demonstrates my ability to perform the R tasks indicated in Homework 2. To begin, I will create an object, `y`, which contains the kernel density estimate for Petal Width in the `iris` dataset. 
+This section demonstrates my ability to perform the R tasks indicated in Homework 1. To begin, I will create an object, `y`, which contains the kernel density estimate for Petal Width in the `iris` dataset. 
 
 ```{r}
 #Generating kernel density estimate for Petal Width in the iris dataset
